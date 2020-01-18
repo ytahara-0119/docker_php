@@ -1,4 +1,5 @@
-# ローカルPHP環境
+# ローカルPHP環境作成
+以下の構成で環境を作る
 nginx mysql5.7 php7.4
 
 ## 1. 事前にDOCKERとDOCKER-COMPOSEを使えるようにしておく
@@ -31,6 +32,7 @@ terminalでコマンドを打って確認する。
 ![image3](img/3.png)
 
 ## 7. localhost:8888でphpmyadminにアクセスできる
+![image4](img/4.png)
 passwordはデフォルトでroot
 
 ## 8. 終了するときはdocker-compose stop
