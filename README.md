@@ -3,7 +3,7 @@ nginx mysql5.7 php7.4
 
 ## 1. 事前にDOCKERとDOCKER-COMPOSEを使えるようにしておく
 terminalでコマンドを打って確認する。
-![image1](https://github.com/ytahara-0119/docker_php/img/1.jpg)
+![image1](https://github.com/ytahara-0119/docker_php/img/1.png)
 
 ## 2. git cloneする
 
@@ -26,9 +26,9 @@ terminalでコマンドを打って確認する。
 `docker-compose up -d`
 
 ## 5. dokcer ps でコンテナが起動してるか確認
-![image2](https://github.com/ytahara-0119/docker_php/img/2.jpg)
+![image2](https://github.com/ytahara-0119/docker_php/img/2.png)
 ## 6. localhost:8080でアクセス
-![image3](https://github.com/ytahara-0119/docker_php/img/3.jpg)
+![image3](https://github.com/ytahara-0119/docker_php/img/3.png)
 
 ## 7. localhost:8888でphpmyadminにアクセスできる
 passwordはデフォルトでroot
