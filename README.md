@@ -1,5 +1,5 @@
 # ローカルPHP環境作成
-以下の構成で環境を作る
+ローカルにPHP環境をさくっと作ります。
 nginx mysql5.7 php7.4
 
 ## 1. 事前にDOCKERとDOCKER-COMPOSEを使えるようにしておく
@@ -7,10 +7,12 @@ terminalでコマンドを打って確認する。
 ![image1](img/1.png)
 
 ## 2. git cloneする
+git clone https://github.com/ytahara-0119/docker_php.git
 
 
 ## 3. ファルダ構成
 ```bash
+docker_php
 ├── README.md
 ├── docker-compose.yml
 ├── mysql
@@ -22,6 +24,7 @@ terminalでコマンドを打って確認する。
 │   └── php.ini
 └── www
     └── html
+          └── index.php このファイルを書き換えたり、このフォルダに新しいプログラムを追加したり  
 ```
 ## 4. dockerフォルダでdocker-compose up -d ビルドと起動
 `docker-compose up -d`
