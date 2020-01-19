@@ -1,4 +1,3 @@
 <?
-$msg = "hello goobye";
-print($msg);
+phpinfo();
 ?>
