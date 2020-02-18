@@ -7,6 +7,8 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
       - ./www/html:/var/www/html
+      - .docker_bash_history:/root/.bash_history 
+      - .docker_bashrc:/root/.bashrc 
     depends_on:
       - php
 
